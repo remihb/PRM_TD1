@@ -2,13 +2,13 @@
  * getCSV() method
  */
 function getCSV() {
-    Papa.parse("https://github.com/remihb/PRM_TD1/blob/master/villes_france.csv", {
+    /*Papa.parse("/data/data.csv", {
         download: true,
         complete: function(results) {
             console.log(results);
             parseCSV(results.data);
         }
-    });
+    });*/
 }
 
 /**
