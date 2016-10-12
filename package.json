@@ -1,0 +1,19 @@
+{
+  "name": "td1_geo-marketing",
+  "version": "1.0.0",
+  "description": "visualisation of hidden data distributed on a geographic area",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remihb/PRM_TD1.git"
+  },
+  "author": "remihb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/remihb/PRM_TD1/issues"
+  },
+  "homepage": "https://github.com/remihb/PRM_TD1#readme"
+}
