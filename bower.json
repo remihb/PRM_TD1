@@ -1,0 +1,9 @@
+{
+  "name": "td1-geo-marketing",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
