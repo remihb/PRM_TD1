@@ -2,33 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f2d831d-7325-4ee0-a95e-b47d39f07e51" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/PRM_TD1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jqvmap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/papaparse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/papaparse.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/player/player.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/player/player.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/player/player.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/long-sample.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/node-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/sample.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/test-cases.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/tests.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jqvmap/jquery.vmap.colorsFrance.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jqvmap/jquery.vmap.france.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jqvmap/jquery.vmap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jqvmap/Parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PRM_TD1.iml" afterPath="$PROJECT_DIR$/.idea/PRM_TD1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jqvmap.css" afterPath="$PROJECT_DIR$/css/jqvmap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/france_map.html" afterPath="$PROJECT_DIR$/france_map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/.gitignore" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/.npmignore" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/.travis.yml" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/Gruntfile.js" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/LICENSE" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/README.md" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/bower.json" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/package.json" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/papaparse.js" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/papaparse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/papaparse.min.js" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/papaparse.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/player/player.css" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/player/player.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/player/player.html" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/player/player.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/player/player.js" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/player/player.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/long-sample.csv" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/long-sample.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/node-tests.js" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/node-tests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/sample.csv" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/sample.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/test-cases.js" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/test-cases.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/test.js" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/tests.html" afterPath="$PROJECT_DIR$/js/PapaParse-4.1.2/tests/tests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jqvmap/jquery.vmap.colorsFrance.js" afterPath="$PROJECT_DIR$/js/jqvmap/jquery.vmap.colorsFrance.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jqvmap/jquery.vmap.france.js" afterPath="$PROJECT_DIR$/js/jqvmap/jquery.vmap.france.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jqvmap/jquery.vmap.js" afterPath="$PROJECT_DIR$/js/jqvmap/jquery.vmap.js" />
     </list>
     <ignored path="PRM_TD1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,12 +52,32 @@
     <favorites_list name="PRM_TD1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="france_map.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/france_map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="285">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.vmap.colorsFrance.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jqvmap/jquery.vmap.colorsFrance.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1521" selection-start-line="0" selection-start-column="1521" selection-end-line="0" selection-end-column="1521" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parser.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jqvmap/Parser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -62,12 +85,21 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/js/PapaParse-4.1.2/player/player.js" />
+        <option value="$PROJECT_DIR$/js/jqvmap/Parser.js" />
         <option value="$PROJECT_DIR$/france_map.html" />
       </list>
     </option>
@@ -110,8 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -161,10 +191,6 @@
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqvmap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -182,6 +208,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,6 +241,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -234,31 +268,32 @@
       <option name="presentableId" value="Default" />
       <updated>1476255170931</updated>
       <workItem from="1476255172264" duration="910000" />
+      <workItem from="1476256572386" duration="1494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="910000" />
+    <option name="totallyTimeSpent" value="2404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -273,8 +308,56 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/france_map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jqvmap/jquery.vmap.colorsFrance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1521" selection-start-line="0" selection-start-column="1521" selection-end-line="0" selection-end-column="1521" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/PapaParse-4.1.2/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-851">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/PapaParse-4.1.2/player/player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/PapaParse-4.1.2/player/player.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jqvmap/Parser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/france_map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding />
         </state>
       </provider>
