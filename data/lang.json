@@ -1,0 +1,55 @@
+{
+	"oc": {
+		"prefix": [
+			"cast",
+			"aurad",
+			"cayl",
+			"tore",
+			"roca",
+			"rode",
+			"bara",
+			"mota",
+			"moth",
+			"ville",
+			"mont",
+			"bourg"
+		],
+		"suffix": [
+			"moth",
+			"neuve",
+			"neuf",
+			"nouvelle",
+			"franche"
+		]
+	},
+	"oil": {
+		"prefix": [
+			"mont",
+			"ville",
+			"will",
+			"court",
+			"bas",
+			"haut",
+			"grand",
+			"mal",
+			"beau",
+			"belle",
+			"bel",
+			"vige",
+			"nigre"
+		],
+		"suffix": [
+			"ière",
+			"ais",
+			"ach",
+			"ville",
+			"villes",
+			"ville",
+			"mont",
+			"val",
+			"garde",
+			"bourg",
+			"vue"
+		]
+	}
+}
