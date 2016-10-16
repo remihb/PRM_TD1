@@ -1,0 +1,13 @@
+<% include header %>
+  <link rel="stylesheet" href="/css/jquery-jvectormap-2.0.3.css" type="text/css" media="screen" />
+  <script src="/js/jquery-jvectormap-2.0.3.min.js"></script>
+  <script src="/js/jquery-jvectormap-fr-merc.js"></script>
+  <h1><%-title %></h1>
+  <div id="map" style="width: 1000px; height: 700px"></div>
+  <script>
+    var cities = <%- JSON.stringify(cities) %>;
+    var departements = <%- JSON.stringify(departements) %>;
+  </script>
+  <script src="/js/map.js"></script>
+  </body>
+  <% include footer %>
