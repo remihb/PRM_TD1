@@ -43,6 +43,13 @@
                             <% } %>
                               <a href="/map">Map</a>
                           </li>
+                          <% if (typeof about === 'object') { %>
+                            <li class="active">
+                              <% } else { %>
+                                <li>
+                                  <% } %>
+                                    <a href="/about">About</a>
+                                </li>
             </ul>
           </div>
         </div>
