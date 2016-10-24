@@ -13,6 +13,7 @@ $(function() {
 			markers.push({
 				latLng: [cities[i].latitude_deg, cities[i].longitude_deg],
 				name: cities[i].nom_reel,
+				lang: cities[i].lang,
 				style: {
 					fill: fillCity(cities[i]),
 					r: 2.5
@@ -21,18 +22,23 @@ $(function() {
 		}
 	}
 	var values = {};
+	var max_rate = 0.01;
 	for (var j in departements) {
-		values[j] = (departements[j] > 0) ? 'oc' : 'oil';
+		values[j] = (departements[j].rate < max_rate || departements[j].lang === 0) ? 'undet' : (departements[j].lang > 0) ? 'oc' : 'oil';
 	}
 	$('#map').vectorMap({
 		map: 'fr_merc',
 		markers: markers,
-        backgroundColor: 'rgba(255,255,255,1)',
+		onMarkerClick: function(event, index) {
+			alert("name : " + markers[index].name + "\nlang balance : " + markers[index].lang);
+		},
+		backgroundColor: 'rgba(255,255,255,1)',
 		series: {
 			regions: [{
 				scale: {
 					oil: 'rgba(255,100,100,1)',
-					oc: 'rgba(100,100,255,1)'
+					oc: 'rgba(100,100,255,1)',
+					undet: 'rgba(100,255,100,1)'
 				},
 				values: values,
 				attribute: 'fill',
@@ -54,7 +60,7 @@ $(function() {
 			}]
 		},
 		onRegionClick: function(e, code) {
-			alert(code);
+			alert("name : " + code + "\nrate : " + departements[code].rate + "\nlang : " + departements[code].lang);
 		},
 	});
 });

@@ -5,9 +5,9 @@ var csvParser = require('./fileparser.js').csvParser,
 
 
 function pad(n, width, z) {
-  z = z || '0';
-  n = n + '';
-  return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
+	z = z || '0';
+	n = n + '';
+	return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
 }
 
 var toponymie = function(city, lang, val) {
@@ -33,17 +33,24 @@ var departements = function(cities) {
 	return new Promise(function(resolve, reject) {
 		var departements = {};
 		_.forEach(cities, function(city) {
-			if (city.lang !== 0){
-				dep = pad(city.departement, 2);
-				if (departements["FR-" + dep] === undefined){
-					departements["FR-" + dep] = 0;
-				}
-				if (city.lang > 0) {
-					departements["FR-" + dep] += 1;
-				} else {
-					departements["FR-" + dep] -= 1;
-				}
+			dep = pad(city.departement, 2);
+			if (departements["FR-" + dep] === undefined) {
+				departements["FR-" + dep] = {
+					lang: 0,
+					cities: 0
+				};
 			}
+			departements["FR-" + dep].lang += city.lang;
+			departements["FR-" + dep].cities++;
+
+			// if (city.lang > 0){
+			// 	departements["FR-" + dep].oc.lang += city.lang;
+			// 	departements["FR-" + dep].oc.num++;
+			// }
+			// else if (city.lang < 0){
+			// 	departements["FR-" + dep].oil.lang += city.lang;
+			// 	departements["FR-" + dep].oil.num++;
+			// }
 		});
 		resolve(departements);
 	});
@@ -69,7 +76,13 @@ var attributeLang = function() {
 					.then(function(cities) {
 						departements(cities)
 							.then(function(departements) {
-								resolve({cities: cities, departements:departements});
+								_.map(departements, function(dep) {
+									dep.rate = Math.abs(dep.lang) / dep.cities;
+								});
+								resolve({
+									cities: cities,
+									departements: departements
+								});
 							});
 					})
 					.catch(function(error) {
@@ -82,22 +95,16 @@ var attributeLang = function() {
 	});
 };
 
-// attributeLang()
-// 	.then(function(result) {
-// 		var dd = 0,
-// 			ff = 0;
-// 		// _.forEach(result.departements, function(dep, val){
-// 		// 	if (dep > 0){
-// 		// 		dd+=1;
-// 		// 	}
-// 		// 	else{
-// 		// 		ff+=1;
-// 		// 	}
-// 		// });
-// 		console.log(dd, ff);
-// 	})
-// 	.catch(function(error) {
-// 		console.log(error);
-// 	});
+attributeLang()
+	.then(function(result) {
+		_.forEach(result.departements, function(dep, val) {
+			// if (Math.abs(dep.rate) > 0.1){
+			console.log(dep.rate);
+			// }
+		});
+	})
+	.catch(function(error) {
+		console.log(error);
+	});
 
 module.exports = attributeLang;

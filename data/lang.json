@@ -2,6 +2,7 @@
 	"oc": {
 		"prefix": [
 			"cast",
+			"caz",
 			"aurad",
 			"cayl",
 			"tore",
@@ -12,14 +13,20 @@
 			"moth",
 			"ville",
 			"mont",
-			"bourg"
+			"bourg",
+			"bast",
+			"bel",
+			"dun",
+			"gar"
 		],
 		"suffix": [
 			"moth",
 			"neuve",
 			"neuf",
 			"nouvelle",
-			"franche"
+			"franche",
+			"anum",
+			"dun"
 		]
 	},
 	"oil": {
@@ -28,7 +35,7 @@
 			"ville",
 			"will",
 			"court",
-			"bas",
+			"bas ",
 			"haut",
 			"grand",
 			"mal",
