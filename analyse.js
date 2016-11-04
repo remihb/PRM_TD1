@@ -37,20 +37,22 @@ var departements = function(cities) {
 			if (departements["FR-" + dep] === undefined) {
 				departements["FR-" + dep] = {
 					lang: 0,
-					cities: 0
+					valid: 0,
+					total: 0
 				};
 			}
-			departements["FR-" + dep].lang += city.lang;
-			departements["FR-" + dep].cities++;
+			if (city.lang !== 0){
+				departements["FR-" + dep].valid++;
+				if (city.lang > 0){
+					departements["FR-" + dep].lang++;
+				}
+				else{
+					departements["FR-" + dep].lang--;
 
-			// if (city.lang > 0){
-			// 	departements["FR-" + dep].oc.lang += city.lang;
-			// 	departements["FR-" + dep].oc.num++;
-			// }
-			// else if (city.lang < 0){
-			// 	departements["FR-" + dep].oil.lang += city.lang;
-			// 	departements["FR-" + dep].oil.num++;
-			// }
+				}
+			}
+			departements["FR-" + dep].total++;
+
 		});
 		resolve(departements);
 	});
@@ -77,7 +79,7 @@ var attributeLang = function() {
 						departements(cities)
 							.then(function(departements) {
 								_.map(departements, function(dep) {
-									dep.rate = Math.abs(dep.lang) / dep.cities;
+									dep.rate = dep.valid / dep.total;
 								});
 								resolve({
 									cities: cities,
@@ -94,17 +96,5 @@ var attributeLang = function() {
 			});
 	});
 };
-
-attributeLang()
-	.then(function(result) {
-		_.forEach(result.departements, function(dep, val) {
-			// if (Math.abs(dep.rate) > 0.1){
-			console.log(dep.rate);
-			// }
-		});
-	})
-	.catch(function(error) {
-		console.log(error);
-	});
 
 module.exports = attributeLang;

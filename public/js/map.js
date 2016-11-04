@@ -22,9 +22,9 @@ $(function() {
 		}
 	}
 	var values = {};
-	var max_rate = 0.01;
+	var max_rate = 0.05;
 	for (var j in departements) {
-		values[j] = (departements[j].rate < max_rate || departements[j].lang === 0) ? 'undet' : (departements[j].lang > 0) ? 'oc' : 'oil';
+		values[j] = (departements[j].rate < max_rate || departements[j].lang === 0) ? 'indet' : (departements[j].lang > 0) ? 'oc' : 'oil';
 	}
 	$('#map').vectorMap({
 		map: 'fr_merc',
@@ -38,7 +38,7 @@ $(function() {
 				scale: {
 					oil: 'rgba(255,100,100,1)',
 					oc: 'rgba(100,100,255,1)',
-					undet: 'rgba(100,255,100,1)'
+					indet: 'rgba(100,255,100,1)'
 				},
 				values: values,
 				attribute: 'fill',
